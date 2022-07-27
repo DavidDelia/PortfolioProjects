@@ -1,6 +1,6 @@
 /*
 Covid-19 Data Exploration via SQL
-Sourced: Our World in Data on 7/25/2022
+Sourced: Our World in Data
 
 Demonstrates: CTE's, Joins, Temp Tables, Windows Functions, Aggregate Functions, View Creation, Data Type Conversion
 */
