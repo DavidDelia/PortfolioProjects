@@ -180,8 +180,8 @@ From PortfolioProject..CovidDeaths dea
 Join PortfolioProject..CovidVaccinations vac
 	On dea.location = vac.location
 	and dea.date = vac.date
-where dea.continent is not null
 
+	-- Executing Temp Table
 Select*, (RollingCountVaccinated/Population)*100 as RollingCountVaccinationsPercentage
 From #PercentPopulationVaccinated
 
